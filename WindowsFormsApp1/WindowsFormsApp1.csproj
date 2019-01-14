@@ -77,6 +77,115 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\BLL\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\BLL\user.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DAL\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DAL\user.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\BaseSqlMapDao.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\CommandInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperMySQL.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperOleDb.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperOra.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperSQL.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperSQL2.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperSQLite.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DbHelperSQLP.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DESEncrypt.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\OracleHelper.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\PubConstant.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\SQLHelper.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Model\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Model\user.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\CheckRight.ascx.cs">
+      <DependentUpon>checkright.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\CheckRight.ascx.designer.cs">
+      <DependentUpon>CheckRight.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\CopyRight.ascx.cs">
+      <DependentUpon>copyright.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\CopyRight.ascx.designer.cs">
+      <DependentUpon>CopyRight.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\List.aspx.designer.cs">
+      <DependentUpon>List.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\dataDataSet.Designer.cs" />
+    <Compile Include="WindowsFormsApp1\dataDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApp1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="WindowsFormsApp1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="WindowsFormsApp1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="WindowsFormsApp1\Program.cs" />
+    <Compile Include="WindowsFormsApp1\Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApp1\Properties\Resources.Designer.cs" />
+    <Compile Include="WindowsFormsApp1\Properties\Settings.Designer.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +204,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\CheckRight.ascx.resx">
+      <DependentUpon>CheckRight.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\CopyRight.ascx.resx">
+      <DependentUpon>CopyRight.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApp1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApp1\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApp1\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources" />
+    <EmbeddedResource Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources" />
+    <EmbeddedResource Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources" />
+    <EmbeddedResource Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources" />
+    <EmbeddedResource Include="WindowsFormsApp1\Properties\Resources.resx" />
     <None Include="data.db" />
     <None Include="dataDataSet.xsc">
       <DependentUpon>dataDataSet.xsd</DependentUpon>
@@ -116,12 +248,91 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="WindowsFormsApp1\App.config" />
+    <None Include="WindowsFormsApp1\bin\Debug\data.db" />
+    <None Include="WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\CodematicDemo.suo" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\CodematicDemo.suo" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\System.Data.SQLite.lib" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\BlueTheme\Control.skin" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\Green2Theme\Control.skin" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\GreenTheme\Control.skin" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\PurpleTheme\Control.skin" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\RedTheme\Control.skin" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\MasterPage.master" />
+    <None Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Web.config" />
+    <None Include="WindowsFormsApp1\data.db" />
+    <None Include="WindowsFormsApp1\dataDataSet.xsc">
+      <DependentUpon>dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WindowsFormsApp1\dataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WindowsFormsApp1\dataDataSet.xss">
+      <DependentUpon>dataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WindowsFormsApp1\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="WindowsFormsApp1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete" />
+    <None Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache" />
+    <None Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache" />
+    <None Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache" />
+    <None Include="WindowsFormsApp1\Properties\Settings.settings" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="view\" />
+    <Folder Include="WindowsFormsApp1\bin\Release\" />
+    <Folder Include="WindowsFormsApp1\view\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WindowsFormsApp1\bin\Debug\DevComponents.DotNetBar2.dll" />
+    <Content Include="WindowsFormsApp1\bin\Debug\DevComponents.DotNetBar2.xml" />
+    <Content Include="WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe" />
+    <Content Include="WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\BLL\BLL.csproj" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\BLL\BLL.csproj.user" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\CodematicDemo.sln" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DAL\DAL.csproj" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DAL\DAL.csproj.user" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DBUtility.csproj" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\DBUtility\DBUtility.csproj.user" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\LTP.Accounts.dll" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\Maticsoft.Common.dll" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\Microsoft.Web.UI.WebControls.dll" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\MySql.Data.dll" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Lib\System.Data.SQLite.DLL" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Model\Model.csproj" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Model\Model.csproj.user" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\BlueTheme\Default.css" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\Green2Theme\Default.css" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\GreenTheme\Default.css" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\PurpleTheme\Default.css" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\App_Themes\RedTheme\Default.css" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\checkright.ascx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Controls\copyright.ascx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Default.aspx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Global.asax" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Images\code2.JPG" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Images\top1.gif" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Style.css" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Add.aspx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\List.aspx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Modify.aspx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\user\Show.aspx" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Web.csproj" />
+    <Content Include="WindowsFormsApp1\CodematicDemo\CodematicDemo\Web\Web.csproj.user" />
+    <Content Include="WindowsFormsApp1\obj\Debug\TempPE\dataDataSet.Designer.cs.dll" />
+    <Content Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.FileListAbsolute.txt" />
+    <Content Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe" />
+    <Content Include="WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb" />
+    <Content Include="WindowsFormsApp1\WindowsFormsApp1.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
